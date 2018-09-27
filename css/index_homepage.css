@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+
+#carouselExampleIndicators {
+  height: 100vh;
+}
+
+.d-block.w-100 {
+  width: max-content!important;
+  height: 100vh!important;
+}
+
+.bg-dark {
+  background-color:rgba(255, 255, 255, 0)!important;
+}
+
+.navbar-dark .navbar-toggler {
+  border:0px;
+}
+
+.pos-f-t nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pos-f-t navfix {
+  z-index: 100000;
+}
+
+.d-block.w-100 {
+  height: 100vh!important;
+  display: flex;
+}
+
+.w-100 {
+  width: auto!important;
+}
+
+#navbarToggleExternalContent {
+  background-color: white;
+  display: flex;
+  font-family: "Gurajada";
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 0px;
+  margin-bottom: 9px;
+  justify-content: space-evenly;
+  color: #313131;
+  list-style: none;
+}
+
+.collapse:not(.show) {
+  display: none!important;
+}
+
+.text-white {
+  color: #313131!important;
+}
+
+.text-muted ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.text-muted a {
+  color: #313131c4!important;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+button:focus {
+  outline: 0px;
+}
+
+.navfix {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+#navbar_container {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 20;
+}
+
+#navbar_container nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+#navigation_container {
+  margin: 32.5px 0px;
+}
+
+#navigation_container img {
+  text-decoration: none;
+  color: #313131;
+  height: 15px;
+}
+
+#navbar_container div {
+  align-items: center;
+}
+
+#logo_container {
+  margin: 20px 0px;
+}
+
+#logo_container a {
+  text-decoration: none;
+  font-family: "Marcellus SC";
+  font-size: 35px;
+  color: #260000;
+  letter-spacing: 3px;
+}
+
+#menu_container ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 32.5px 0px;
+}
+
+#menu_container a {
+  text-decoration: none;
+  font-family: "Abel";
+  font-size: 15px;
+  color: #313131;
+  letter-spacing: 2px;
+}
+
+#menu_container li {
+  margin: 0px 8px;
+}
+
+#collections {
+  display: flex;
+  font-family: "Abel";
+  color: #313131;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 90px 80px;
+}
+
+#collections_menu {
+  margin-right: 60px;
+}
+
+.catalogazione {
+  font-family: "Gurajada";
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+
+#collections_menu ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#collections_menu li {
+  margin: 5px 0px;
+  min-width: 155px;
+  cursor: auto;
+  cursor: pointer;
+}
+
+#collections_menu a {
+  text-decoration: none;
+  color: #313131;
+}
+
+.collections_container {
+  margin: 0px 10px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.collections_container a{
+  text-decoration: none;
+  color: #313131;
+}
+
+
+
+.author {
+  font-family: "Gurajada";
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin: auto;
+}
+
+#collections_img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#collections_img p {
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 4px;
+}
+
+.img img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.img img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.inserzioni {
+  width: 100%;
+}
+
+#collections_2 {
+  display: block;
+  font-family: "Abel";
+  color: #313131;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 15%;
+}
+
+.description_1 {
+  width: 600px;
+}
+
+.description {
+  width: 280px;
+}
+
+.collections_container_2 {
+  margin: 0px 5px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  height: 360px;
+}
+
+.collections_container_2 a{
+  color: #313131;
+  text-decoration: none;
+}
+
+#shop_collections {
+  margin-bottom: 90px;
+  font-family: 'Abel';
+  color: #313131;
+  font-size: 15px;
+  letter-spacing: 2px;
+  justify-content: center;
+  display: flex;
+}
+
+.shop_by {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 90px;
+}
+
+#shop_group_1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#shop_group_2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.shop_menu {
+  margin: 0px;
+  min-width: 200px;
+}
+
+.shop_menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.shop_menu li {
+  list-style: none;
+  margin: 5px 0px;
+  min-width: 155px;
+  cursor: pointer;
+}
+
+.shop_img_1 {
+  margin: 0px 20px;
+}
+
+.shop_img_1 img {
+  margin-top: 15px;
+}
+
+.named {
+  font-family: "Marcellus SC";
+  text-decoration: none;
+  color: #313131;
+  
+}
+
+.d-block {
+  font-family: "Abel";
+  color: #313131;
+  font-size: 12px;
+}
+
+.col-6 h5 {
+  font-family: "Gurajada";
+  font-size: 25px;
+}
+
+.text-muted {
+  font-family: "Abel";
+  color: #313131;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 750px) {
+  #collections {
+    flex-direction: column;
+  }
+  #collections_menu{
+    align-self: center;
+    margin-bottom: 10%;
+  }
+  .description_1 {
+    width: 70%;
+  }
+  .shop_by{
+    flex-direction: column;
+  }
+
+  .shop_img_1 {
+    margin: 0px;
+  }
+}
